@@ -14,8 +14,8 @@
     position: relative;
 }
 
-.count {
-    border: 3px solid rgb(211, 87, 87);
+.count {   
+    border: 3px solid rgb(226, 216, 216);
     padding: 10px 15px;
     border-radius: 50%;
     z-index: 3;

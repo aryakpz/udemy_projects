@@ -1,0 +1,60 @@
+body
+{
+margin: 0;
+}
+
+.main
+{
+    display: flex;
+    flex-flow:row ;
+    box-sizing: border-box;
+}
+
+.one{
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* min-width: 75%; */
+    left: 0;
+    overflow: auto;
+    background-image: url('gradient-dynamic-blue-lines-background_23-2148995756.avif');
+}
+
+.two{
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* min-width: 75%; */
+    right: 0;
+    background-image: url('realistic-neon-lights-background_23-2148907367.avif');
+}
+
+.content{
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+    display: flex;
+    flex-flow: column
+}       
+.content h2{
+    color: white;
+    font-weight: 600;
+    font-size: 40px;
+}                   
+     
+.content button{
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    font-weight: 600;
+    padding: 15px 30px;
+}
+.sec{
+    width:50% ;
+    height: 100vh;
+    justify-content: center;
+align-items: center;
+}
+
+.sec.active{
+    width:px;
+    transition: width 1s;
+}

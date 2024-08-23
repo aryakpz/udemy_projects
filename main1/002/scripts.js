@@ -37,9 +37,7 @@ function update() {
     countel.forEach((count, index) => {
         if (index < current) {
             count.classList.add('active')
-
         }
-
         else {
             count.classList.remove('active')
 
