@@ -1,0 +1,50 @@
+.main{
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row;
+    overflow: scroll;
+    /* width: 100%; */
+    gap: 10px;
+    position: relative;
+    margin: 50px;
+    overflow: none
+    
+
+}
+
+.card{
+    border-radius: 50px;
+    height: 90vh;
+    position: relative;
+    flex: 0.5;
+    /* width: 100px; */
+    /* transition: flex 1s ease-in; */
+    
+}
+
+.card {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+h1{
+    font-size: 20px;
+    display: none;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.card.active{
+    /* width:1000px; */
+    transition: 1s ease-out;
+    flex:4.5;
+
+}
+.card.active h1{
+    display: flex;
+    position:absolute;
+    bottom: 0;
+    color: rgb(103, 160, 143);
+    padding: 10px 30px;
+}
