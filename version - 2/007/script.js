@@ -4,7 +4,7 @@ const sec = document.querySelectorAll('.sec')
 
 sec.forEach(s => {
     s.addEventListener('mouseover', () => {
-        console.log(s)
+        console.log(s.className)
         remove()
         s.classList.add('active')
     })
@@ -18,3 +18,5 @@ function remove() {
     })
 }
    
+
+
