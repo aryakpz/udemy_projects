@@ -1,0 +1,23 @@
+.main{
+    display: flex;
+    flex-flow: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    height: 100lvh;
+}
+
+body{
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(218, 182, 218);
+}
+
+.main div{
+    background-color: purple;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 3px;
+}
