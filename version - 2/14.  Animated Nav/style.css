@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+}
+.top{
+    height: 50vh;
+    background-color: rgb(238, 163, 163);
+    position:absolute;
+    width: 100%;
+}
+.bottom{
+    height: 50vh;
+    top: 50vh;
+    background-color: rgb(68, 160, 177);
+    position:absolute;
+    width: 100%;
+}                                                                                              
+   
+.nav{
+    position: relative;
+    top: 47vh;
+    background-color: rgb(238, 230, 216);
+    width: fit-content;
+    justify-content: center;align-items: center;
+    margin-inline: auto;
+    display: flex;
+    
+}
+
+.nav ul{
+    display: flex;
+    gap: 10px;
+    padding-left: 0;
+    list-style-type: none; 
+    padding: 0 15px;
+    /* padding: 15px; */
+    transition: transform 04s linear;
+    transition: width 0.4s ease;
+}    
+
+.nav img{ 
+    width: 20px;     
+}
+
+.mainline{      
+    display: flex;
+    flex-flow: column;
+    gap: 6px;     
+    cursor: pointer;
+    padding-right: 10px;     
+}
+
+.mainline .line{
+    width: 20px;
+    height: 2px;
+    background-color: rgb(19, 140, 170);
+
+}
+

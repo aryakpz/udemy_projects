@@ -1,6 +1,6 @@
 .main{
     display: flex;
-    flex-flow: column;
+    /* flex-flow: column; */
     gap: 15px;
     justify-content: center;
     align-items: center;

@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    background-color: rgb(218, 216, 216);
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    padding-top: 40px;
+}
+
+.sec {
+    display: flex;
+    flex-flow: column;
+    gap: 20px;
+
+}
+
+.box {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    background-color: #d3d3d3;
+    flex-flow: column;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.ques {
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ans {
+    font-size: 15px;
+    display: none;
+
+}
+
+.ques img{
+    width: 20px;
+
+    margin-left: 20px;
+   
+}
+#down{
+    display: flex;
+}
+
+ #x{
+    display: none;
+}
+
+.sec .active{
+    background-color: white;
+}
+
+
+.sec .active .ans{
+    display: flex;
+}
+
+.sec .active #down{
+    display: none;
+}
+.sec .active #x{
+    display: flex;
+}
