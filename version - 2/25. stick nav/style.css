@@ -1,0 +1,70 @@
+
+body{
+    margin: 0;
+
+}
+
+.nav{
+    display: flex;
+    padding: 20px;
+    flex-flow: row;
+    width: 100%;
+    margin-inline: auto;
+   
+    position: fixed;
+    background-color: white;
+
+}
+.subnav{
+    max-width:1400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-inline: auto;
+}
+.head{
+    font-weight: 600;
+    font-size: 25px;
+}
+.item{
+    display: flex;
+    flex-flow: row;
+    gap: 20px;
+    margin-top: 0;
+
+}
+.item li:first-child{
+    color: red;
+}
+.item li{
+    list-style-type: none;
+    display: flex;
+  
+}
+
+.image{
+    padding-top: 70px;
+}
+
+.image img{
+    width: 100%;
+    height: 600px;
+
+}
+
+.datapart{
+    max-width: 1400px;
+    width: 100%;
+    margin-inline: auto;
+    padding: 20px 0;
+}
+
+.datapart p{
+    line-height: 1.6;
+}
+
+.nav.active{
+    background-color: black;
+    color: white;
+    padding-bottom: 10px;
+}

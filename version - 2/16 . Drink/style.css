@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(132, 186, 223);
+    color: rgb(229, 232, 236);
+    text-align: center;
+}
+
+.cups{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+
+.cup{
+    height: 150px;
+ 
+    border: 3px solid rgb(133, 177, 175);
+    border-radius: 0 0  50px 50px;
+    background-color: rgb(193, 213, 214);
+    color: rgb(114, 17, 17);
+    box-shadow: 0 10px 4px rgba(0,0,0,0.5);
+    /* justify-content: center; */
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+ 
+
+}
+  
+.cup.main{
+    height: 300px;
+    width: 200px;
+
+    overflow: hidden;
+}
+
+.cup.small{ 
+
+    transition: 0.6s ease;
+    align-items: center;
+    width: 70px;
+    border-radius: 0 0  50px 50px;
+
+}
+.cup.full{
+    background-color: rgb(17, 128, 128);
+    color: white;
+}
+
+
+#remained{
+    display: flex;
+    flex-flow: column;
+    transition: 0.3s;
+    justify-content: center;
+    flex: 1;
+ 
+    
+}
+
+.remained span{
+font-size: 24px;
+font-weight: 600;
+}
+
+.percentage{
+    background-color: rgb(51, 141, 156);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3 ease;
+
+    font-size: 30px;
+    font-weight: 600;
+    padding: 0;
+    color: white;
+    transition:  0.3s ease;
+    bottom: 0;
+}
+

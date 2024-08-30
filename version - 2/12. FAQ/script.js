@@ -22,7 +22,8 @@ bo.forEach(item =>{
         // down.style.display=down.style.display==='none'?'flex':'none'
         // item.style.backgroundColor= item.style.backgroundColor==='white'?'Lightgrey':'white'
 
-        item.className=item.className==='box active'?'box': 'box active'
+        // item.className=item.className==='box active'?'box': 'box active'
+        item.classList.toggle('active')
 
     })
 

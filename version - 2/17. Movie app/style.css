@@ -1,0 +1,115 @@
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+
+}
+
+.nav{
+    background-color: rgb(123, 81, 177);
+    padding: 15px;
+   
+}
+
+.nav input{
+    background-color: transparent;
+    border:1px solid black;
+    border-radius: 20px;
+    height: 25px;
+    color: black;
+    float: right;
+
+}
+
+.submain .imagesec{
+    width: 250px;
+    object-position: center;
+
+}
+
+.submain .imagesec img{
+    object-fit: contain;
+    object-position: center;
+    width: 250px;
+    
+}
+
+.main{
+    display: flex;
+    overflow-wrap: break-word;
+
+}
+
+.submain{
+  display: flex;
+  flex-wrap: wrap;
+  overflow-wrap: break-word;
+  background-color: rgb(84, 44, 121);
+  padding: 20px;
+  margin-inline: auto;
+
+}
+
+.card{
+    margin: 20px;
+    width: 250px;
+    position: relative;
+    background-color: rgb(123, 81, 177);
+    overflow: hidden;
+
+}
+
+.card .data{
+    padding: 10px;
+    margin-top: 0;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.datasec{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row;
+}
+
+.datasec .rate{
+ 
+    margin: 10px;
+    width: 28px;
+    height: 15px;
+    overflow: hidden;
+    padding: 2px;
+    background-color: rgb(67, 21, 110);
+    color: rgb(243, 151, 12);
+    font-weight: 600;
+    font-size: 13px;
+    border-radius: 3px;
+    font-family: 'Courier New', Courier, monospace;
+
+}         
+
+.info
+{
+background-color: white;
+padding: 10px;
+position:absolute;
+bottom:0;
+transform: translateY(101%);
+overflow-y: auto;
+transition: transform 0.3s ease-in;
+/* transform: translateY(0%); */
+
+/* display: none; */
+display: flex;
+/* height: 20px; */
+}
+
+
+
+.card:hover .info{
+    transform: translateY(0);
+}

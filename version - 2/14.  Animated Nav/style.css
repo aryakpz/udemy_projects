@@ -20,11 +20,17 @@ body{
     top: 47vh;
     background-color: rgb(238, 230, 216);
     width: fit-content;
-    justify-content: center;align-items: center;
+    justify-content: center;
+    align-items: center;
     margin-inline: auto;
     display: flex;
+    border-radius: 4px;
+    padding-right: 30px;
+    transition: width 0.6s linear;
+ 
     
 }
+
 
 .nav ul{
     display: flex;
@@ -33,26 +39,63 @@ body{
     list-style-type: none; 
     padding: 0 15px;
     /* padding: 15px; */
-    transition: transform 04s linear;
-    transition: width 0.4s ease;
+    width: 0;
+    transition: width 0.6s linear;
 }    
-
-.nav img{ 
-    width: 20px;     
-}
-
+ 
 .mainline{      
     display: flex;
     flex-flow: column;
     gap: 6px;     
     cursor: pointer;
-    padding-right: 10px;     
+
+    position:absolute;
+    right:20px;
+ 
 }
 
 .mainline .line{
+    position: relative;
     width: 20px;
     height: 2px;
     background-color: rgb(19, 140, 170);
+    transition: transform 0.6s linear;
+   
 
 }
+.nav.active ul{
+   
+    width: 100%;
+}
+     
+.nav ul li{
+    transform: rotateX(0deg);
+    opacity: 0;
+    transition:transform 0.6s linear,opacity 0.6s linear;
+
+}
+.nav.active ul li{
+    opacity: 1;                   
+    transform: rotateY(360deg);
+
+}                            
+
+.nav.active .mainline .line.one{
+    transform: rotate(-765deg) translateY(5.5px);
+}
+
+.nav.active .mainline .line.two{
+    transform: rotate(765deg) translateY(-5.5px);
+}
+
+
+
+
+
+
+
+
+
+
+
 

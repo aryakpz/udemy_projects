@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    margin-inline: auto;
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+}
+
+.left{
+    width: 30%;
+}
+.right{
+    width: 70%;
+}
+
+.right div{
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+}
+
+.main{
+    display: flex;
+}
+.left{
+    
+}
