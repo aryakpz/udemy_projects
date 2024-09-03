@@ -1,0 +1,32 @@
+
+body{
+    background-color: darksalmon;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.bottom{
+    position:  20px;
+    background-color:rgb(216, 148, 126);
+    padding: 20px;
+    bottom: 0;
+    justify-content: flex-end;       
+}          
+      
+input{
+    width: 50px;     
+    padding: 5px;
+    font-size: 18px;
+    background-color: darksalmon;
+    border-radius: 2px;
+    border: 1px solid black;
+}
+
+input:focus{
+    outline: none;
+}
+
+

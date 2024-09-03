@@ -1,0 +1,110 @@
+
+.main {
+    margin-inline: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+}
+
+.head {
+    font-style: oblique;
+    font-weight: 600;
+    font-size: 30px;
+    text-decoration: underline;
+    padding: 50px;
+}
+
+.boxsec {
+    display: flex;
+    gap: 100px;
+}
+
+.box, .sub, .third {
+    border: 3px solid black;
+    border-top: 3px transparent;
+    width: 100px;
+    height: 500px;
+    align-items: center;
+    display: flex;
+    flex-flow: column-reverse;
+    border-radius: 0 0 15px 15px;
+    cursor: pointer;
+}
+
+.items {
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+    max-width: 400px;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 40px;
+}
+
+.ball {
+    border: 1px solid black;
+    padding: 20px;
+    width: 30px;
+    aspect-ratio: 1/1;
+    display: flex;
+    flex-flow: row;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(27, 83, 97);
+    cursor: pointer;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.ball:hover {
+    background-color: rgb(71, 155, 185);
+}
+
+.ball.active {
+    display: none;
+}
+
+.select {
+    display: flex;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(27, 83, 97);
+    cursor: pointer;
+    border: 1px solid black;
+    padding: 15px;
+    width: 30px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.select:hover {
+    background-color: rgb(71, 155, 185);
+}
+
+.values {
+    display: flex;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(27, 83, 97);
+    cursor: pointer;
+    border: 1px solid black;
+    padding: 15px;
+    width: 30px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.values:hover {
+    background-color: rgb(71, 155, 185);
+}
+
+.select.active {
+    display: none;
+}

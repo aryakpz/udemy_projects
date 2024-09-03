@@ -20,6 +20,7 @@ h4.innerHTML="John Doe"
 p2.innerHTML="Oct 08,2020"
 topimg.innerHTML=`<img src="Untitled.jpeg">`
 bottomimg.innerHTML=` <img src="pic.jpeg">`
+
 bg.forEach((item)=>item.classList.remove('animated'))
 text.forEach((item)=>item.classList.remove('text'))
 
