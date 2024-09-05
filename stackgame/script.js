@@ -51,17 +51,18 @@ function display(item) {
         clickbox(container);
     });
 });
-
+   
 function clickbox(container) {
-    if (selectedbox) {
+    if (selectedbox)
+         {
         move(selectedbox, container);
         selectedbox = null; 
     } 
-    else {
+    else {     
         selectedbox = container; 
-    }
+    }   
 }
-
+ 
 function move(from, to) {
     if (from.lastElementChild) 
         {

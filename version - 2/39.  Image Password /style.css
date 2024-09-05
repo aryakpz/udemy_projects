@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    height: 100vh;
+    background-image: url('work.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.main{
+    display: flex;
+    flex-flow: column;
+    width: 300px;
+    padding: 40px;
+    border-radius: 3px;
+    background-color: white;
+}
+.submit{
+    background-color: black;
+    color: white;
+    border: 0;
+    border-radius: 3px;
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.inputsec{
+    display: flex;
+    flex-flow: column;
+    gap: 10px;
+}
+input{
+    height: 30px;
+}
