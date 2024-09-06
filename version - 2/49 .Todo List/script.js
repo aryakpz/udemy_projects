@@ -1,18 +1,17 @@
 
-const input = document.querySelector('input')
 
-const display = document.querySelector('.display')
+const input = document.querySelector('input');
+const display = document.querySelector('.display');
 
-input.addEventListener('input', (e) => {
-    
-    console.log(e.target.value)
+input.addEventListener('keydown', (e) => {
 
-    input.addEventListener('keydown', () => {
+    if (e.key === 'Enter') 
+    {
+        const im = document.createElement('li');
+        im.classList.add('box');
+        im.innerHTML = input.value;
+        display.appendChild(im); 
+    }
 
-        const im = document.createElement('div')
-        im.classList.add('box')
-        im.innerHTML = e.target.value
-        display.appendChild(im)
-
-    })
-})
+});
+                                     
