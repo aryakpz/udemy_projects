@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+}
+
+.main{
+    width: 500px;
+    background-color: rgb(70, 70, 219);
+    display: flex;
+    flex-flow: column;
+    padding: 30px;
+    border-radius: 10px;
+
+  
+}
+
+.data{
+    display: flex;
+    color: rgb(206, 205, 205);
+    gap: 10px;
+    justify-content: space-between;
+    align-items: baseline;
+
+    
+   
+}
+.data img{
+    width: 30px;
+    filter: invert(0.6);
+    margin-top: 0;
+   
+
+  
+}
+.image{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    margin-top: 20px;
+
+   
+}
+.image img{
+    border-radius: 50%;
+    width: 5rem;
+    aspect-ratio: 1/1;
+    height: 5rem;
+}
+
+
+span{
+    padding: 10px;
+}
+span p,h5{
+    margin: 2px;
+}
+
+
+.bar {
+    background-color: #fff;
+    height: 4px;
+    width: 100%;
+    animation: grow 10s linear infinite;
+    transform-origin: left;
+    border-radius: 25px;
+    margin: 20px 0;
+  }
+  
+  @keyframes grow {
+    0% {
+      transform: scaleX(0);
+    }
+  }

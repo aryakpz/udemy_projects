@@ -1,0 +1,41 @@
+
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.main{
+    width: 300px;
+    height: 8px;
+    background-color: rgb(163, 27, 163);
+    border-radius: 10px;
+    position: relative;
+    cursor: pointer;
+
+}
+.btn{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(248, 250, 252);
+    border: 1px solid rgb(148, 42, 148);
+    border-radius: 50%;
+    left: 22%;
+    cursor: pointer;
+    transform: 1s ease;
+    /* transform: translateX(14.1em); */
+}
+.label{
+    position: absolute;
+    left: 28%;
+    top: 43%;
+    background-color: rgb(204, 211, 211);
+    border: 1px solid black;
+    width: 30px;
+    text-align: center;
+    color:black;
+    border-radius: 5px;
+    
+}

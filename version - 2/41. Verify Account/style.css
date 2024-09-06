@@ -1,0 +1,50 @@
+body{
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    display: flex;  
+}
+.main{
+    border: 3px solid black;
+    width: 600px;
+    height: 350px;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+    /* justify-content: center; */
+    display: flex;
+    flex-flow: column;
+}
+p{
+    max-width: 450px;
+    font-size: 15px;
+    margin-top: 0;
+}
+.code{
+    display: flex;
+    gap: 10px;
+    margin: 30px 0;
+}
+.num{  
+    border: 2px solid black;
+    height: 100px;
+    width: 70px;
+    border-radius: 5px;
+    font-size: 4.6rem;
+    text-align: center;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.5);
+
+}           
+.message{
+    background-color: rgb(221, 210, 210);
+    width: 400px;
+    font-size: 13px;
+    padding: 5px;
+    border-radius:5px;   
+}    
+.num:focus{
+    outline: rgb(89, 135, 177);     
+    border-color: rgb(231, 56, 25);    
+}    
+

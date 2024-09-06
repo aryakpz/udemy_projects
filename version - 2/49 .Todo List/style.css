@@ -1,0 +1,38 @@
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(249, 230, 253);
+}
+
+h2 {
+    font-size: 12rem;
+    color: rgb(230, 159, 236);
+}
+
+input {
+    height: 40px;
+    box-shadow: 0 3px 10px;
+    font-size: 30px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5.2rem;
+    border-radius: 5px;
+}
+
+p {
+    line-height: .6;
+}
+
+.bottom {
+    text-align: center;
+    margin-top: 8rem;
+}
+
+input:focus{
+    outline: none;
+}

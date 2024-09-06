@@ -1,0 +1,84 @@
+
+body{
+    margin: 0;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    box-sizing: border-box;
+}
+/* .main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;  
+}
+.sub{
+    width: 170px;
+} */
+/* .sub img{
+    width: 170px;
+    background-color: transparent;
+}  */
+.logo{
+    width: 170px;
+}
+.net{
+    width: 170px;
+}
+.navbtn{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 20px;
+}
+.openbtn{
+    position: fixed;
+    top: 10px;
+    left: 10px;
+}
+.nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    transform: translateX(-100%);
+    transition: transform 1s ease-in-out;
+}
+.nav.visible{
+    transform: translateX(0);
+}
+.black{
+    background-color: black;
+    width: 60%;
+    max-width: 480px;
+    min-width: 320px; 
+}
+.red{
+    background-color: red;
+    width: 95%;
+}
+.white{
+    background-color: white;
+    width: 70%;
+    padding: 40px;
+}
+.closebtn{             
+position: absolute;
+top: 40px;
+opacity: 0.3;
+right: 30px;
+}
+.list {
+    list-style-type: none;
+   
+}
+.list li{
+    margin-top: 10px;
+    list-style-type: none;
+}
+ul li a{
+    text-decoration: none;
+
+}
